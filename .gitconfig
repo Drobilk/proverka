@@ -1,0 +1,15 @@
+[user]
+	name = Diana
+	email = diana.k.0202@mail.ru
+[core]
+	autocrlf = input
+	safecrlf = warn
+	quotepath = off
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
